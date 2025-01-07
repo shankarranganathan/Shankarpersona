@@ -26,6 +26,9 @@ public class Personal {
 		System.out.println("1,lkg");
 
 	}
+	private void myWhorth() {
+		System.out.println("2000crore");
+	}
 	public static void main(String[] args) {
 		Personal p=new Personal();
 		p.name();
@@ -35,6 +38,7 @@ public class Personal {
 		p.childName();
 		p.Myhouseno();
 		p.ChildClass();
+		p.myWhorth();
 	}
 
 }
