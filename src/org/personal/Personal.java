@@ -26,8 +26,12 @@ public class Personal {
 		System.out.println("1,lkg");
 
 	}
+
 	private void annualPlanner() {
 		System.out.println("10 crore per year");
+
+	private void myWhorth() {
+		System.out.println("2000crore");
 
 	}
 	public static void main(String[] args) {
@@ -39,7 +43,11 @@ public class Personal {
 		p.childName();
 		p.Myhouseno();
 		p.ChildClass();
+
 		p.annualPlanner();
+
+		p.myWhorth();
+
 	}
 
 }
