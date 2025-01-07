@@ -19,6 +19,13 @@ public class Personal {
 		System.out.println("jai, vetri");
 
 	}
+	private void Myhouseno() {
+	System.out.println("no10,bajani kovil street pattabiram");
+	}
+	private void ChildClass() {
+		System.out.println("1,lkg");
+
+	}
 	public static void main(String[] args) {
 		Personal p=new Personal();
 		p.name();
@@ -26,6 +33,8 @@ public class Personal {
 		p.myJob();
 		p.wifeJob();
 		p.childName();
+		p.Myhouseno();
+		p.ChildClass();
 	}
 
 }
